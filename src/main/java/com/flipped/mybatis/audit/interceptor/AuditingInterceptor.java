@@ -24,8 +24,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * 自定义 Mybatis 插件，自动设置 createTime 和 updatTime 的值。
- * 拦截 update 操作（添加和修改）
+ * 自定义 Mybatis 插件，自动设置 createTime, createBy, updateTime, updateBy 的值
  */
 @Slf4j
 @Intercepts({
